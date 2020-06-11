@@ -1,5 +1,5 @@
 * {
-    margin=: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -11,19 +11,34 @@
 }
 
 .mw {
+    width: 100%;
     max-width: 1100px;
     margin: 0 auto;
 
+
     /* da cancellare */
     min-height: 200px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
 }
 
 body {
-
+    font-family: 'Quicksand', sans-serif;
+    color: #33475b;
 }
 
+/* .box {
+    border: 1px solid black;
+} */
+
+button {
+    color: white;
+    border-color: #ff7a59;
+    background-color: #ff7a59;
+    border-radius: 5px;
+}
+
+/* -----------------------topbar----------------------- */
 .topbar{
     height: 78px;
     width:100%;
@@ -33,6 +48,57 @@ body {
     z-index: 100;
 }
 
+.container  {
+
+}
+
+.topbar .left {
+    float: left;
+    padding-top: 28px;
+}
+
+#languages {
+    float: left;
+    padding-right: 21px;
+    border-right: 1px solid #cbd6e2;
+}
+
+.languages span {
+    margin: 0 10px;
+}
+#contact-us {
+    float: left;
+    padding-left: 21px;
+}
+
+.topbar .right {
+    float: right;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.topbar i {
+    display: inline-block;
+    color: #00a4bd;
+}
+
+.buttons {
+    display: inline-block;
+}
+
+#log-in {
+    color: #ff7a59;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 0 12px 0 29px;
+}
+
+#ghsp {
+    padding: 10px 20px;
+}
+
+
+/* -----------------------topbar----------------------- */
 /* -----------------------header----------------------- */
 header {
     background-color: #ffffff;
