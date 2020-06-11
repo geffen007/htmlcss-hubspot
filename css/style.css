@@ -18,22 +18,22 @@
 
     /* da cancellare */
     min-height: 200px;
-    /* border-left: 1px solid black;
-    border-right: 1px solid black; */
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #33475b;
 }
 
-/* .box {
+.box {
     border: 1px solid black;
-} */
+}
 
 button {
     color: white;
-    border-color: #ff7a59;
+    border: 1px solid #ff7a59;
     background-color: #ff7a59;
     border-radius: 5px;
 }
@@ -46,9 +46,10 @@ button {
     position: fixed;
     top: 0;
     z-index: 100;
+    border-bottom: 2px solid #cbd6e2;
 }
 
-.container  {
+.topbar .container  {
 
 }
 
@@ -77,12 +78,12 @@ button {
     padding-bottom: 18px;
 }
 
-.topbar i {
+.fa-search{
     display: inline-block;
     color: #00a4bd;
 }
 
-.buttons {
+.topbar .buttons {
     display: inline-block;
 }
 
@@ -142,6 +143,82 @@ nav i {
 /* -----------------------pink----------------------- */
 .pink {
     background-color: #fff3ee;
+    max-height: 731px;
+
+
+}
+
+.pink .container {
+    width: 550px;
+    height: 585px;
+}
+
+.text {
+    padding-top: 70px;
+
+}
+
+h1 {
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.pink p {
+    line-height: 1.7;
+    padding-top: 35px;
+}
+
+.pink .buttons {
+    padding-top: 40px;
+    padding-bottom: 180px;
+}
+
+.pink button {
+    padding: 23px 40px;
+}
+
+.pbar{
+    position: relative;
+    height: 149px;
+}
+.qpink {
+    height: 67px;
+    width: 70%;
+    background-color: #fff3ee;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.qlgreen {
+    height: 82px;
+    width: 70%;
+    background-color: #afebe4;
+    position:absolute;
+    bottom:0;
+    left:0;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-right: 0;
+    border-left: 0;
+    border-style: solid;
+    border-color: #33475b;
+}
+
+.agreen {
+    height: 149px;
+    width: 30%;
+    background-color: #00a48d;
+    position: absolute;
+    right:0;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-right: 0;
+    border-left: 0;
+    border-style: solid;
+    border-color: #33475b;
+
 }
 
 
@@ -150,6 +227,37 @@ nav i {
 .grey {
     background-color:#f5f8fa;
 }
+
+.grey .container {
+
+}
+
+.grey .box{
+    width: 100%;
+    text-align: center;
+    padding: 45px 170px;
+
+
+
+    border: 1px solid black;
+    min-height: 100px;
+}
+
+.grey .box img {
+    height: 175px;
+}
+
+
+.card{
+    width: 33.3333%;
+    float: left;
+    background-color: white;
+
+
+    height: 100px;
+    border: 1px solid black;
+}
+
 
 /* -----------------------grey----------------------- */
 /* -----------------------green----------------------- */
