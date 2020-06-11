@@ -109,6 +109,35 @@ nav{
 
 }
 
+header .left{
+    float: left;
+    padding: 28px 0 28px 0;
+}
+
+header .right {
+    float: right;
+    padding: 39px 0 39px 0;
+}
+
+#logo {
+    width: 106px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    padding-right: 6px;
+    padding-left: 29px;
+}
+
+nav i {
+    margin-left: 5px;
+}
+
+
 /* -----------------------header----------------------- */
 /* -----------------------pink----------------------- */
 .pink {
