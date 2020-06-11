@@ -18,8 +18,8 @@
 
     /* da cancellare */
     min-height: 200px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 }
 
 .box {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 button {
@@ -92,6 +92,10 @@ button {
     background-color: white;
     padding: 10px 20px;
     margin: 0 12px 0 29px;
+}
+
+#log-in:hover {
+    background-color: #fff1ee;
 }
 
 #ghsp {
@@ -239,7 +243,7 @@ h1 {
 
 
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     min-height: 100px;
 }
 
@@ -247,22 +251,50 @@ h1 {
     height: 175px;
 }
 
+.grey .boxw {
+    margin: 45px 0;
+}
 
 .card{
-    width: 33.3333%;
+    width: 30%;
     float: left;
     background-color: white;
 
 
+
     height: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
+.cen {
+    margin: 0 55px;
+}
 
 /* -----------------------grey----------------------- */
 /* -----------------------green----------------------- */
 .green{
     background-color: #00afb2;
+    color: white;
+    text-align: center;
+
+}
+
+.green .box {
+    width: 80%;
+    margin:0 auto;
+    padding: 110px;
+}
+
+.green .minibox {
+    width: 275px;
+    float: left;
+    border: 1px solid white;
+
+    min-height: 100px;
+}
+#row {
+    border-top-width: 0px;
+    border-right-width: 0px;
 }
 
 /* -----------------------green----------------------- */
