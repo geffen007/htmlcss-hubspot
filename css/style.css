@@ -14,9 +14,6 @@
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-
-
-
 }
 
 body {
@@ -32,9 +29,18 @@ body {
 
 button {
     color: white;
+    font-weight: 600;
     border: 1px solid #ff7a59;
     background-color: #ff7a59;
     border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffbcac;
+}
+
+h2 {
+    font-size: 28px;
 }
 
 /* -----------------------topbar----------------------- */
@@ -359,9 +365,13 @@ h1 {
 }
 
 .green .box {
-    width: 80%;
+    width: 100%;
     margin:0 auto;
-    padding: 110px;
+    padding: 110px 110px 0 110px;
+}
+
+.green h2 {
+    padding-bottom: 35px;
 }
 
 .green .table {
@@ -370,15 +380,12 @@ h1 {
 
 .green .minibox {
     width: 25%;
-
-
-
+    padding: 30px;
     float: left;
-    min-height: 100px;
 }
 
 .green .table {
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 
 .green .minibox:nth-child(1n+2) {
@@ -394,6 +401,21 @@ h1 {
 }
 
 
+.green .minibox img {
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.green .minibox span{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.green p {
+    font-weight: 100;
+    font-size: 14px;
+    padding: 10px 0;
+}
 /* -----------------------green----------------------- */
 /* -----------------------white----------------------- */
 .white {
@@ -434,11 +456,19 @@ h1 {
     text-align: center;
     float: left;
     line-height: 93px;
+}
 
+.img {
+    position: relative;
+    height: 51px;
 }
 
 .white .table img{
-    max-width: 80%;
+    position: absolute;
+    max-width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .white .rows {
@@ -451,7 +481,10 @@ h1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
 
+.white .jumbo p {
+    padding: 20px 0 32px 0;
 }
 
 
@@ -463,15 +496,39 @@ h1 {
     transform:translateY(-50%);
 }
 
+.white button {
+    padding: 10px 20px;
+}
 
 /* -----------------------white----------------------- */
 /* -----------------------footer----------------------- */
 footer {
-    padding: 100px 0;
+    padding: 100px 0 100px 0;
     background-color: #33475b;
     color: #bcd6e2;
 
 }
+
+footer li:hover {
+    color: #7fd1de;
+}
+
+footer span{
+    margin: 0 15px;
+}
+
+footer span:hover {
+    color: #7fd1de;
+}
+
+footer i:hover {
+    color: #7fd1de;
+}
+
+footer p:hover {
+    color: #7fd1de;
+}
+
 footer .rowf {
     width: 100%;
 }
@@ -497,6 +554,7 @@ footer .rowf {
 .box-ul ul > :first-child {
     font-weight: 800;
     font-size: 16px;
+    color: white;
 }
 
 .icone i {
@@ -531,6 +589,19 @@ footer .languages {
     right: 0;
     width: 50%;
     text-align: right;
+}
+
+footer button {
+    padding: 10px 20px;
+    margin-bottom: 12px;
+}
+
+footer .lastrow {
+    padding: 32px 0 0 0;
+}
+
+.copyright img {
+    padding-bottom: 14px;
 }
 
 /* -----------------------footer----------------------- */
