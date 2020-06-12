@@ -436,6 +436,7 @@ h1 {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    padding-left: 84px;
 }
 
 
@@ -591,9 +592,19 @@ footer .languages {
     text-align: right;
 }
 
-footer button {
+#contact {
+    color:#33475b;
+    background-color: white;
     padding: 10px 20px;
     margin-bottom: 12px;
+    font-weight: 400;
+    border: 0px;
+    margin: 10px 0 10px 0;
+}
+
+#contact:hover {
+    background-color: #eaf0f6;
+
 }
 
 footer .lastrow {
