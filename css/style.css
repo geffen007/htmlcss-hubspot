@@ -231,17 +231,6 @@ h1 {
 }
 
 
-/* .pbar img {
-    z-index: 999;
-    height: 200px;
-}
-
-.hero {
-    background-image: url("../img/hero.png");
-    background-size: 100%;
-    background-position: bottom;
-} */
-
 /* -----------------------pink----------------------- */
 /* -----------------------grey----------------------- */
 .grey {
@@ -272,6 +261,8 @@ h1 {
     width : 100%;
     padding: 55px;
     margin-bottom: 55px;
+    float: left;    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px grey;
 }
 
 .grey img {
@@ -301,17 +292,33 @@ h1 {
     width: 20%;
 }
 
+#pf {
+    line-height: 50px;
+    font-weight: bold;
+}
+
 .hr hr {
     position: absolute;
     transform: translateY(-6px);
-    width: 60px;
+    width: 300px;
+    margin: 0 50px;
+}
+
+.check i{
+    padding-right: 20px;
+    color: #ff7a59;
+}
+
+.check span {
+    padding-right: 30px;
 }
 
 .card{
     width: 30%;
     float: left;
     background-color: white;
-
+    box-shadow: 1px 1px 5px 1px grey;
+    border-radius: 5px;
 
 
     height: 100px;
