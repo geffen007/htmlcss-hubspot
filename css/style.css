@@ -16,10 +16,7 @@
     margin: 0 auto;
 
 
-    /* da cancellare */
-    min-height: 200px;
-    /* border-left: 1px solid black;
-    border-right: 1px solid black; */
+
 }
 
 body {
@@ -27,8 +24,10 @@ body {
     color: #33475b;
 }
 
-.box {
-    /* border: 1px solid black; */
+.b {
+    border: 1px solid black;
+
+    min-height: 100px;
 }
 
 button {
@@ -285,29 +284,100 @@ h1 {
     padding: 110px;
 }
 
-.green .minibox {
-    width: 275px;
-    float: left;
-    border: 1px solid white;
+.green .table {
+    width: 100%;
+}
 
+.green .minibox {
+    width: 25%;
+
+
+
+    float: left;
     min-height: 100px;
 }
-#row {
-    border-top-width: 0px;
-    border-right-width: 0px;
+
+.green .table {
+    padding-bottom: 50px;
 }
+
+.green .minibox:nth-child(1n+2) {
+    border-left: 1px solid white;
+}
+
+.green .minibox:nth-child(1n+5) {
+    border-top: 1px solid white;
+}
+
+.green .minibox:nth-child(5){
+    border-left: 0;
+}
+
 
 /* -----------------------green----------------------- */
 /* -----------------------white----------------------- */
 .white {
     background-color: #ffffff;
+    padding: 100px 0px;
 }
+
+.white .rowf {
+    position: relative;
+}
+
+.white .cust {
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.white .container-table {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.white .table {
+
+}
+
+.white .minibox {
+    width: 25%;
+    height: 80px;
+    text-align: center;
+    float: left;
+    line-height: 80px;
+
+}
+
+.white .rows {
+}
+
+.white .table img{
+    max-width: 110px;
+}
+
+.white .rows img{
+    max-width: 350px;
+text-align: left;
+
+}
+
 
 /* -----------------------white----------------------- */
 /* -----------------------footer----------------------- */
 footer {
     background-color: #33475b;
 
+
+
+  height: 100px;
 }
 
 /* -----------------------footer----------------------- */
