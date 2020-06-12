@@ -146,8 +146,15 @@ nav i {
 .pink {
     background-color: #fff3ee;
     max-height: 731px;
+    position: relative;
+}
 
-
+#hero {
+    position: absolute;
+    height: 514px;
+    bottom: 0;
+    z-index: 50;
+    right: 11%;
 }
 
 .pink .container {
@@ -224,6 +231,17 @@ h1 {
 }
 
 
+/* .pbar img {
+    z-index: 999;
+    height: 200px;
+}
+
+.hero {
+    background-image: url("../img/hero.png");
+    background-size: 100%;
+    background-position: bottom;
+} */
+
 /* -----------------------pink----------------------- */
 /* -----------------------grey----------------------- */
 .grey {
@@ -261,14 +279,32 @@ h1 {
 }
 
 .book {
-    width: 30%;
+    width: 25%;
     float: left;
+    text-align: center;
+    margin-right: 5.5%;
+}
 
+.book button {
+    padding: 10px 20px;
 }
 
 .crm {
-    width: 70%;
+    width: 69.5%;
+    height: 165px;
     float: left;
+}
+
+.crm .hr {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+.hr hr {
+    position: absolute;
+    transform: translateY(-6px);
+    width: 60px;
 }
 
 .card{
