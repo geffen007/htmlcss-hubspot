@@ -388,10 +388,21 @@ h1 {
 /* -----------------------footer----------------------- */
 footer {
     background-color: #33475b;
+    color: white;
 
+    height: 100px;
+}
+footer .rows {
+    width: 100%;
+}
 
+.box-ul {
+    width: 25%;
+    float: left;
+}
 
-  height: 100px;
+ul {
+
 }
 
 /* -----------------------footer----------------------- */
