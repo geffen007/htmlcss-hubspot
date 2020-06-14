@@ -537,10 +537,6 @@ footer i:hover {
     color: #7fd1de;
 }
 
-footer p:hover {
-    color: #7fd1de;
-}
-
 footer .rowf {
     width: 100%;
 }
@@ -626,14 +622,24 @@ footer .lastrow {
     padding-bottom: 14px;
 }
 
+footer p {
+    color: White;
+}
+
+
 /* -----------------------footer----------------------- */
 
 
 .grunt {
-    color: #ff7a59;
+    color: rgba(255, 255, 255, 0);
     position: fixed;
     bottom: 10px;
     right: 10px;
+
+}
+
+.grunt:hover {
+    color: #ff7a59;
 }
 
 .grunt {
