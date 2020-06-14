@@ -416,6 +416,17 @@ h1 {
     font-size: 14px;
     padding: 10px 0;
 }
+
+.green .minibox span::after {
+    content: "+";
+    display: inline-block;
+    font-size: 15px;
+    font-weight: lighter;
+    transform: translateY(-25%);
+
+
+}
+
 /* -----------------------green----------------------- */
 /* -----------------------white----------------------- */
 .white {
