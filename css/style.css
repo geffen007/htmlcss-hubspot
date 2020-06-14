@@ -129,7 +129,7 @@ header .left{
 
 header .right {
     float: right;
-    padding: 39px 0 39px 0;
+    /* padding: 39px 0 39px 0; */
 }
 
 #logo {
@@ -138,14 +138,18 @@ header .right {
 
 header li {
     float: left;
-    padding-right: 6px;
-    padding-left: 29px;
+    padding-right: 17px;
+    padding-left: 17px;
+    line-height: 100px;
+}
+
+header li:hover {
+    background-color: #f5f8fa;;
 }
 
 nav i {
     margin-left: 5px;
 }
-
 
 /* -----------------------header----------------------- */
 /* -----------------------pink----------------------- */
@@ -267,6 +271,11 @@ h1 {
     margin-bottom: 55px;
     float: left;    border-radius: 5px;
     box-shadow: 1px 1px 5px 1px grey;
+    transition: .3s;
+}
+
+.grey .boxw:hover {
+    transform: scale(1.01);
 }
 
 .grey img {
@@ -325,6 +334,11 @@ h1 {
     border-radius: 5px;
     text-align: center;
     padding: 28px;
+    transition: .3s;
+}
+
+.grey .card:hover {
+    transform: scale(1.01);
 }
 
 .cen {
@@ -630,7 +644,23 @@ footer p {
 /* -----------------------footer----------------------- */
 
 
+.sign {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 9px;
+    right: 7px;
+    background-color: rgba (52, 73, 100, 1);
+}
+
+.sign:hover {
+    background-color: #344964;
+    box-shadow: 1px 1px 7px 1px #ff7a59;
+    border-radius: 50%;
+}
+
 .grunt {
+    font-size: 30px;
     color: rgba(255, 255, 255, 0);
     position: fixed;
     bottom: 10px;
@@ -640,8 +670,6 @@ footer p {
 
 .grunt:hover {
     color: #ff7a59;
-}
-
-.grunt {
-    font-size: 60px;
+    border-radius: 50%;
+    text-shadow: #2968de;
 }
