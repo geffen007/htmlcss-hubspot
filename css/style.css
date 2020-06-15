@@ -23,8 +23,6 @@ body {
 
 .b {
     border: 1px solid black;
-
-    min-height: 100px;
 }
 
 button {
@@ -66,16 +64,67 @@ h2 {
 #languages {
     float: left;
     padding-right: 21px;
-    border-right: 1px solid #cbd6e2;
+    padding-bottom: 15px;
+    position: relative;
 }
 
 .languages span {
     margin: 0 10px;
 }
+
+.menulang {
+    position: absolute;
+    top: 28px;
+    font-weight: bold;
+    line-height: 2.3;
+    display: none;
+}
+
+.squaremenu {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    transform: rotate(45deg);
+    left:76px;
+    background-color: #f5f8fa;
+    z-index: 2;
+    border-left: 1px solid #cbd6e2;
+    border-top: 1px solid #cbd6e2;
+}
+
+.menulang .menulist {
+    width: 140px;
+    position: absolute;
+    top: 7px;
+    left: 17px;
+    background-color: #f5f8fa;
+    padding: 10px 0;
+    z-index: 1;
+    border: 1px solid #cbd6e2;
+}
+
+.menulist li {
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.menulist li:hover {
+    background-color: #e5f5f8;
+}
+
+
 #contact-us {
     float: left;
     padding-left: 21px;
+    border-left: 1px solid #cbd6e2;
 }
+
+#languages:hover .menulang {
+    display: block;
+}
+
+
+
 
 .topbar .right {
     float: right;
@@ -129,7 +178,6 @@ header .left{
 
 header .right {
     float: right;
-    /* padding: 39px 0 39px 0; */
 }
 
 #logo {
@@ -163,7 +211,7 @@ nav i {
     position: absolute;
     height: 514px;
     bottom: 0;
-    z-index: 50;
+    z-index: 1;
     right: 11%;
 }
 
@@ -269,7 +317,8 @@ h1 {
     width : 100%;
     padding: 55px;
     margin-bottom: 55px;
-    float: left;    border-radius: 5px;
+    float: left;
+    border-radius: 5px;
     box-shadow: 1px 1px 5px 1px grey;
     transition: .3s;
 }
@@ -473,6 +522,7 @@ h1 {
     right: 0;
     width: 100%;
     max-width: 600px;
+    width: 55%;
 
 }
 
